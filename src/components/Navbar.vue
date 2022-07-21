@@ -4,7 +4,7 @@
  
 <template>
 
-<nav class="bg-white xs:bg-clinic-blue-200 sm:bg-clinic-blue-200 md:bg-clinic-blue-200 lg:bg-transparent lg:text-black sm:px-4 absolute z-50 w-full rounded-b-2xl p-1 mt-5">
+<nav class="bg-transparent lg:text-black sm:px-4 absolute z-50 w-full rounded-b-2xl p-1 mt-5">
   <div class="container flex flex-wrap justify-between items-center mx-auto">
     <router-link :to="{name : 'home'}" class="flex items-center">
         

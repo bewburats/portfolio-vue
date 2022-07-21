@@ -1,5 +1,5 @@
 <script setup>
-
+import Button from '../components/Button.vue';
 </script>
  
 <template>
@@ -8,7 +8,6 @@
             <div class="flex flex-wrap-reverse justify-center items-center gap-3">
                 <div class="flex flex-col gap-6 text-center">
                     <div class="typewriter-text">
-
                         <p
                             class="text-3xl xs:text-4xl sm:text-5xl md:text-5xl lg:text-7xl text-gray-900 font-black uppercase tracking-widest">
                             BURATSAKORN
@@ -19,17 +18,12 @@
                         welcome to my space <br />
                         think draft draw , and do it !
                     </p>
-                    <div class="center">
-                        <button type="button" class="hover:text-white text-black rounded-full bg-gradient-to-br from-purple-300 to-pink-200 hover:bg-gradient-to-bl 
-                        focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-xl px-8 
-                        py-2.5 text-center mr-5 mb-5">view more</button>
-                    </div>
+                    <router-link :to="{ name: 'about' }">
+                        <Button text="View More →" btnType="primary" />
+                    </router-link>
                 </div>
-
             </div>
         </div>
-
-
     </div>
 </template>
  
