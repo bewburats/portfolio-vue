@@ -6,7 +6,7 @@ import Button from '../components/Button.vue';
   <div class="bg-about w-screen h-screen bg-no-repeat bg-cover bg-center flex items-center">
     <div class="bg-element w-screen h-screen bg-no-repeat bg-cover bg-center flex items-center">
             <div class="container mx-auto px-4 pt-16">
-              <div class="flex flex-wrap-reverse justify-center items-center gap-3">
+              <div class="flex flex-wrap justify-center items-center gap-3">
                 <img class="m-10 object-cover rounded-full w-3/12" src="../../public/images/about-img.png" />
                 <div class="pl-10 flex flex-col gap-6">
                   <p
@@ -16,7 +16,7 @@ import Button from '../components/Button.vue';
                   <p
                     class="text-2xl  text-balck font-light tracking-normal">
 
-                    I want to be an UX/UI designer so I designed and <br />
+                    I want to be a Ux/Ui designer so I designed and <br />
                     developed this website to improve my skill and <br />
                     show my works . Hope you love it!
                   </p>
