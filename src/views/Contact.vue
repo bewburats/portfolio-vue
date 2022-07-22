@@ -8,10 +8,11 @@
 
             <div class="flex flex-wrap-reverse justify-center items-center gap-3">
 
-                <img class="  ig bounce-2 mr-10 object-cover w-3/12 rounded-lg drop-shadow-2xl" src="/images/ig.png" />
+                <!-- <img class="hidden ig bounce-2 mr-10 object-cover xs:w-3/12 sm:w-3/12 lg:w-3/12 md:w-3/12 rounded-lg drop-shadow-2xl" src="/images/ig.png" /> -->
+               <img class="m-4 hidden ig bounce-2 object-cover 2 sm:w-3/12 lg:w-3/12 md:w-3/12  md:block rounded-lg drop-shadow-2xl" src="/images/ig.png" />
                 <div class="m-10 flex flex-col gap-6">
                     <p
-                        class=" text-3xl xs:text-4xl sm:text-5xl md:text-5xl lg:text-7xl text-balck font-black uppercase tracking-widest">
+                        class=" text-3xl  sm:text-5xl md:text-5xl lg:text-7xl text-balck font-black uppercase tracking-widest">
                         CONTACT
                     </p>
 
