@@ -20,8 +20,8 @@ import Button from '../components/Button.vue';
                     developed this website to improve my skill and <br />
                     show my works . Hope you love it!
                   </p>
-                  <router-link :to="{ name: 'resume' }">
-                        <Button text="Resume →" btnType="secondary" />
+                  <router-link :to="{ name: 'work' }">
+                        <Button text="Work →" btnType="secondary" />
                     </router-link>
                     
                 </div>
