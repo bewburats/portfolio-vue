@@ -9,12 +9,12 @@ import Button from '../components/Button.vue';
                 <div class="flex flex-col gap-6 text-center">
                     <div class="typewriter-text">
                         <p
-                            class="text-3xl xs:text-4xl sm:text-5xl md:text-5xl lg:text-7xl text-gray-900 font-black uppercase tracking-widest">
+                            class="text-3xl l sm:text-5xl md:text-5xl lg:text-7xl text-gray-900 font-black uppercase tracking-widest">
                             BURATSAKORN
                         </p>
                     </div>
                     <p
-                        class="text-xl  xs:text-xl sm:text-xl md:text-2xl lg:text-3xl text-gray-800 font-normal tracking-normal">
+                        class="text-xl  sm:text-xl md:text-2xl lg:text-3xl text-gray-800 font-normal tracking-normal">
                         welcome to my space <br />
                         think draft draw , and do it !
                     </p>
