@@ -10,11 +10,11 @@ import Button from '../components/Button.vue';
                 <img class="m-10 object-cover rounded-full w-3/12" src="../../public/images/about-img.png" />
                 <div class="pl-10 flex flex-col gap-6">
                   <p
-                    class="text-slide text-4xl xs:text-4xl sm:text-5xl md:text-5xl lg:text-7xl text-bslck font-black uppercase tracking-widest">
+                    class="text-slide text-4xl xs:text-4xl sm:text-5xl md:text-5xl lg:text-7xl text-gray-800 font-black uppercase tracking-widest">
                     Hi , I'm Bew !
                   </p>
                   <p
-                    class="text-2xl  text-balck font-light tracking-normal">
+                    class="text-2xl  text-gray-800 font-light tracking-normal">
 
                     I want to be a Ux/Ui designer so I designed and <br />
                     developed this website to improve my skill and <br />
