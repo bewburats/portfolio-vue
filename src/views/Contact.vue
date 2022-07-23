@@ -9,11 +9,11 @@
       <div class="flex flex-wrap-reverse justify-center items-center gap-3">
         <img
           class="m-4 mr-10 hidden ig bounce-2 object-cover 2 sm:w-3/12 lg:w-3/12 md:w-3/12  md:block rounded-lg drop-shadow-2xl"
-          src="../../public/images/element-home-1.png" alt="element-home"/>
+          src="../../public/images/element-home-1.png" alt="element-home" />
         <div class="m-14 flex flex-col gap-4">
 
           <p
-            class="text-center text-2xl sm:text-5xl md:text-5xl lg:text-7xl text-balck font-black uppercase tracking-widest">
+            class="text-center text-2xl sm:text-5xl md:text-5xl lg:text-7xl text-gray-800 font-black uppercase tracking-widest">
             CONTACT
           </p>
           <p> personal account</p>
@@ -70,7 +70,7 @@
                 bewburats</p>
             </div>
           </a>
-          
+
         </div>
 
       </div>
