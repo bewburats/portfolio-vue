@@ -3,17 +3,19 @@
 </script>
  
 <template>
-    <div class="bg-work w-screen h-screen bg-no-repeat bg-cover bg-center flex items-center">
+    <div class="bg-work w-screen h-screen bg-no-repeat bg-cover bg-center flex flex-wrap flex-col items-center justify-center">
         <div class="container mx-auto px-4 pt-16">
             <div class="flex flex-col gap-2 ">
-                <div class="relative  mt-72 sm:mt-2">
+                <div class="relative mt-72 sm:mt-2">
                     <p
                         class="text-center text-2xl sm:text-5xl md:text-5xl lg:text-7xl text-gray-900 font-black uppercase tracking-widest">
                         WORK
                     </p>
                 </div>
-                <p class="text-xl sm:text-3xl md:text-4xl lg:text-3xl text-gray-900 font-bold">
-                    Ux / Ui Design</p>
+                <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
+                    <p class="text-xl sm:text-3xl md:text-4xl lg:text-3xl text-gray-900 font-bold">
+                        Ux / Ui Design</p>
+                </div>
                 <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
 
                     <a href="https://www.figma.com/proto/BDhptEhGYyN8pSCC2RaBxQ/PROTOTYPE?node-id=1%3A2&starting-point-node-id=1%3A2"
@@ -72,10 +74,17 @@
                     </a>
 
                 </div>
-                <p class="text-xl sm:text-3xl md:text-4xl mt-3 lg:text-3xl text-gray-900 font-bold">
-                    Designs
 
-                </p>
+                <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
+                    <p class="text-xl sm:text-3xl md:text-4xl lg:text-3xl text-gray-900 font-bold">
+                        Designs</p>
+                    <a href="https://www.behance.net/buratsboonma" target="_blank" class="grid justify-items-end">
+                        <p class=" hidden mt-5 text-normal font-semibold md:block link link-hover">
+                            <span class=" text-purple-400">more in </span>
+                            <span class=" text-pink-400">Behance! →</span>
+                        </p>
+                    </a>
+                </div>
                 <div class="grid sm:grid-cols-1 md:grid-cols-7 gap-4">
                     <a href="https://www.behance.net/buratsboonma" target="_blank" class="zoom flex flex-col items-center  rounded-lg shadow-md bg-blue-600 sm:bg-white
                           hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
@@ -124,12 +133,12 @@
                     </a>
                 </div>
             </div>
-            <a href="https://www.behance.net/buratsboonma" target="_blank">
+            <!-- <a href="https://www.behance.net/buratsboonma" target="_blank">
                 <p class="hidden mt-5 text-base font-semibold md:block link link-hover">
                     <span class=" text-purple-400">more in </span>
                     <span class=" text-pink-400">Behance! →</span>
                 </p>
-            </a>
+            </a> -->
         </div>
     </div>
 
