@@ -24,7 +24,7 @@
               alt="email">
             <div class="flex flex-col justify-between m-3 leading-normal">
               <p class="font-semibold text-base sm:text-lg sm:font-semibold text-gray-700 dark:text-gray-400">
-                bew25442@gmail.com</p>
+                buratsakorn.boon@gmail.com</p>
             </div>
           </a>
 
