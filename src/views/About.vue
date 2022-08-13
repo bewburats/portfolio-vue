@@ -17,8 +17,8 @@ import Button from '../components/Button.vue';
                     class="text-2xl  text-gray-800 font-light tracking-normal">
 
                     I want to be a Ux/Ui designer so I designed and <br />
-                    developed this website to improve my skill and <br />
-                    show my works . Hope you love it!
+                    developed this website to improve my skills and <br />
+                    show my works . Hope you enjoy!
                   </p>
                   <router-link :to="{ name: 'work' }">
                         <Button text="Work →" btnType="secondary" />
